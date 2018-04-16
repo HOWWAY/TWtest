@@ -158,7 +158,8 @@ a>img:hover {
   color: white;
   border-radius: 50%;
   background-color: #FFC252;
-  padding:6.5px 8px 6.5px 8px;
+  height: 36px;
+  width: 36px;
   box-shadow: 0 0 10px rgba(255,194,82,0.80);
 }
 .event-func1:hover {
@@ -170,7 +171,8 @@ a>img:hover {
   color: white;
   border-radius: 50%;
   background-color: #F2614E;
-  padding:6.5px 8px 6.5px 8px;
+  height: 36px;
+  width: 36px;
   box-shadow: 0 0 10px rgba(242,97,78,0.80);
 }
 .event-func2:hover {
