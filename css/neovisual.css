@@ -1,0 +1,204 @@
+/*!
+ * Start Bootstrap - Half Slider (https://startbootstrap.com/template-overviews/half-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-half-slider/blob/master/LICENSE)
+ */
+
+.carousel-item {
+  height: 70vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.alert-announce {
+  background-color: #343a40;
+  color:white;
+}
+
+.card-title{
+  border-bottom: 1px solid black;
+  margin-bottom: 4px;
+  padding-bottom: 6px;
+  font-size:36px;
+}
+
+.like-click {
+  color: white;
+}
+
+.likeheart {
+  cursor: pointer;
+}
+
+h5>a {
+  color:black;
+}
+
+.cardpic{
+  box-shadow: 0 4px 16px rgba(0,0,0,0.50);
+}
+
+.cardpic>a {
+  background-color: black;
+}
+
+a>img {
+  transition: opacity .5s; opacity: 1;
+}
+
+a>img:hover {
+  opacity: 0.8;
+}
+
+.transitionfor {
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.card-img-overlay {
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.2),rgba(0,0,0,0.9));
+  border-radius: 5px;
+}
+
+.like-papa {
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(38,208,206,0.1),rgba(26,41,128,0.9));
+}
+
+#cardcontent {
+  position:absolute;
+  bottom:20px;
+}
+
+#cardtitle {
+  color: rgba(255,255,255,1);
+}
+
+.secondarytext {
+  color: rgba(240,240,240,0.66);
+  font-size: 24px;
+}
+
+.secondarytext:hover {
+  color: rgba(240,240,240,0.46);
+}
+
+.thirdtext{
+  color:rgba(255,255,255,0.85);
+  font-weight: lighter;
+}
+
+.card-title {
+  border-bottom: 1px solid white;
+}
+
+.navbar-xinhua {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgba(255,255,255,0.97);
+}
+
+.navbar-brand > img {
+  height: 30px;
+  weight: auto;
+}
+
+.navbar-toggler-icon {
+  height:15px;
+  weight:15px;
+}
+
+.navbar-toggler {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.highlv-a {
+  color: black;
+}
+
+.highlv-a:visited {
+  color: black;
+}
+
+.highlv-a:active {
+  color: #9D2B1C;
+}
+
+.is-hide {
+	transform: translateY(-100%);
+}
+
+.calendar-title {
+  font-size: 28px;
+}
+
+.calendar-header {
+  color: #9D2B1C;
+}
+
+.calendar-text {
+  color: #7c7d7d;
+}
+
+.btn-calendar {
+  background-color: white;
+  border: 1px solid #7c7d7d;
+  color: #7c7d7d;
+}
+
+.event-func1 {
+  font-size: 20px;
+  color: white;
+  border-radius: 50%;
+  background-color: #FFC252;
+  padding:6.5px 8px 6.5px 8px;
+  box-shadow: 0 0 10px rgba(255,194,82,0.80);
+}
+.event-func1:hover {
+  color:white;
+}
+
+.event-func2 {
+  font-size: 20px;
+  color: white;
+  border-radius: 50%;
+  background-color: #F2614E;
+  padding:6.5px 8px 6.5px 8px;
+  box-shadow: 0 0 10px rgba(242,97,78,0.80);
+}
+.event-func2:hover {
+  color:white;
+}
+
+#bookpic1 {
+  background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523923993953&di=13adad580544906e87317ea9d20d99e3&imgtype=0&src=http%3A%2F%2Fimg31.ddimg.cn%2Fimgother%2F201504%2F16_0%2F20150416151000891.jpg');
+  background-size: 150px;
+  height: 150px;
+  width: 150px;
+  box-shadow: 1px 3px 10px rgba(0,0,0,0.30);
+}
+
+#bookpic2 {
+  background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523924022108&di=fb58164448b1c70aa74ce5662203f5e4&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D2677082127%2C1141176406%26fm%3D214%26gp%3D0.jpg');
+  background-size: 150px;
+  height: 150px;
+  width: 150px;
+  box-shadow: 1px 3px 10px rgba(0,0,0,0.30);
+}
+
+.list-group-item {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.lwcallout {
+  padding-left: 8px;
+  padding-right: 8px;
+}

@@ -1,0 +1,144 @@
+/*!
+ * Start Bootstrap - Half Slider (https://startbootstrap.com/template-overviews/half-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-half-slider/blob/master/LICENSE)
+ */
+
+.carousel-item {
+  height: 35vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.alert-announce {
+  background-color: #343a40;
+  color:white;
+}
+
+.card-title{
+  border-bottom: 1px solid black;
+  margin-bottom: 4px;
+  padding-bottom: 6px;
+}
+
+.like-click {
+  color: white;
+}
+
+.likeheart {
+  cursor: pointer;
+}
+
+h5>a {
+  color:black;
+}
+
+.card{
+  transition: box-shadow .3s ease-in-out;
+}
+
+.card:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card>a {
+  background-color: black;
+}
+
+a>img {
+  transition: opacity .5s; opacity: 1;
+}
+
+a>img:hover {
+  opacity: 0.8;
+}
+
+.like-papa {
+  background: linear-gradient(to right, #E3656A , #F18991);
+  color: rgba(255,255,255,0.75);
+}
+
+
+@media screen and (min-width: 1200px) {
+   #leftmenu {
+     position: fixed;
+     height: auto;
+     width: 253px;
+   }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+   #leftmenu {
+     position: fixed;
+     height: auto;
+     width: 208px;
+   }
+}
+
+@media (max-width: 991px){
+   #leftmenu {
+     position: static;
+   }
+}
+
+.profileholder {
+  background-image: url("https://raw.githubusercontent.com/HOWWAY/LowesCLC/master/images/pexels-photo-300849.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.lwcallout {
+  border: 2px solid lightgrey;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.bigProfilePic {
+  background-image: url("https://raw.githubusercontent.com/HOWWAY/LowesCLC/master/images/pexels-photo-300849.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  width: 60%;
+  height: 0;
+  padding-bottom: 60%;
+}
+
+.smallProfilePic {
+  background-image: url("https://raw.githubusercontent.com/HOWWAY/LowesCLC/master/images/pexels-photo-300849.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  width: 40%;
+  height: 0;
+  padding-bottom: 40%;
+}
+
+.nopaddingli {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@media screen and (min-width: 992px) {
+  .footerbot {
+    position: absolute;;
+    bottom: 0px;
+    width: 100%;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 991px){
+   .footerbot {
+     position: static;
+   }
+}
